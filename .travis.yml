@@ -7,5 +7,6 @@ addons:
     chrome: stable
 install:
     - ls
+    - echo $PATH
 before_script:
     - php -S localhost:9999
