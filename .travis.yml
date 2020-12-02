@@ -6,6 +6,6 @@ services:
 addons:
     chrome: stable
 install:
-    - ll
+    - ls
 before_script:
     - php -S localhost:9999
