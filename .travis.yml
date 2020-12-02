@@ -1,10 +1,6 @@
 language: php
 php:
   - 7.1.9
-addons:
-    chrome: stable
 install:
     - ls
-    - pwd
-    - cd /
-    - ls
+    - php index.php
